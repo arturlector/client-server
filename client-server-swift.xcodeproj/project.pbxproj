@@ -13,6 +13,13 @@
 		12C4B21A265821A500E6655C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C4B218265821A500E6655C /* Main.storyboard */; };
 		12C4B21C265821A800E6655C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C4B21B265821A800E6655C /* Assets.xcassets */; };
 		12C4B21F265821A800E6655C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C4B21D265821A800E6655C /* LaunchScreen.storyboard */; };
+		12C4B22B2658277D00E6655C /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B22A2658277D00E6655C /* AccountViewController.swift */; };
+		12C4B22D2658278B00E6655C /* DetailAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B22C2658278B00E6655C /* DetailAccountViewController.swift */; };
+		12C4B230265828BE00E6655C /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B22F265828BD00E6655C /* Account.swift */; };
+		12C4B23326582C0D00E6655C /* ObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B23226582C0D00E6655C /* ObserverViewController.swift */; };
+		12C4B23626582FC900E6655C /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B23526582FC900E6655C /* NotificationCenterViewController.swift */; };
+		12C4B2392658363100E6655C /* ChooseFruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B2382658363100E6655C /* ChooseFruitViewController.swift */; };
+		12C4B23B2658364200E6655C /* FruitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B23A2658364200E6655C /* FruitsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		12C4B21B265821A800E6655C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12C4B21E265821A800E6655C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12C4B220265821A800E6655C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C4B22A2658277D00E6655C /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		12C4B22C2658278B00E6655C /* DetailAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAccountViewController.swift; sourceTree = "<group>"; };
+		12C4B22F265828BD00E6655C /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		12C4B23226582C0D00E6655C /* ObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverViewController.swift; sourceTree = "<group>"; };
+		12C4B23526582FC900E6655C /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
+		12C4B2382658363100E6655C /* ChooseFruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFruitViewController.swift; sourceTree = "<group>"; };
+		12C4B23A2658364200E6655C /* FruitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +100,56 @@
 		12C4B228265821E200E6655C /* Lesson-1 */ = {
 			isa = PBXGroup;
 			children = (
-				12C4B216265821A500E6655C /* ViewController.swift */,
+				12C4B2372658356100E6655C /* Delegation */,
+				12C4B23426582F9A00E6655C /* NotificationCenter */,
+				12C4B23126582BD100E6655C /* Observer-1 */,
+				12C4B2292658263C00E6655C /* Singleton */,
 			);
 			path = "Lesson-1";
+			sourceTree = "<group>";
+		};
+		12C4B2292658263C00E6655C /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				12C4B22E2658289400E6655C /* Service */,
+				12C4B216265821A500E6655C /* ViewController.swift */,
+				12C4B22A2658277D00E6655C /* AccountViewController.swift */,
+				12C4B22C2658278B00E6655C /* DetailAccountViewController.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		12C4B22E2658289400E6655C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				12C4B22F265828BD00E6655C /* Account.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		12C4B23126582BD100E6655C /* Observer-1 */ = {
+			isa = PBXGroup;
+			children = (
+				12C4B23226582C0D00E6655C /* ObserverViewController.swift */,
+			);
+			path = "Observer-1";
+			sourceTree = "<group>";
+		};
+		12C4B23426582F9A00E6655C /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				12C4B23526582FC900E6655C /* NotificationCenterViewController.swift */,
+			);
+			path = NotificationCenter;
+			sourceTree = "<group>";
+		};
+		12C4B2372658356100E6655C /* Delegation */ = {
+			isa = PBXGroup;
+			children = (
+				12C4B2382658363100E6655C /* ChooseFruitViewController.swift */,
+				12C4B23A2658364200E6655C /* FruitsViewController.swift */,
+			);
+			path = Delegation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,9 +222,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C4B23626582FC900E6655C /* NotificationCenterViewController.swift in Sources */,
+				12C4B23B2658364200E6655C /* FruitsViewController.swift in Sources */,
 				12C4B217265821A500E6655C /* ViewController.swift in Sources */,
 				12C4B213265821A500E6655C /* AppDelegate.swift in Sources */,
+				12C4B22D2658278B00E6655C /* DetailAccountViewController.swift in Sources */,
+				12C4B22B2658277D00E6655C /* AccountViewController.swift in Sources */,
+				12C4B23326582C0D00E6655C /* ObserverViewController.swift in Sources */,
+				12C4B2392658363100E6655C /* ChooseFruitViewController.swift in Sources */,
 				12C4B215265821A500E6655C /* SceneDelegate.swift in Sources */,
+				12C4B230265828BE00E6655C /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

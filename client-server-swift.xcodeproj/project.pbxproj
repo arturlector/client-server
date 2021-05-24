@@ -18,7 +18,7 @@
 		12C4B230265828BE00E6655C /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B22F265828BD00E6655C /* Account.swift */; };
 		12C4B23326582C0D00E6655C /* ObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B23226582C0D00E6655C /* ObserverViewController.swift */; };
 		12C4B23626582FC900E6655C /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B23526582FC900E6655C /* NotificationCenterViewController.swift */; };
-		12C4B2392658363100E6655C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B2382658363100E6655C /* MainViewController.swift */; };
+		12C4B2392658363100E6655C /* ChooseFruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B2382658363100E6655C /* ChooseFruitViewController.swift */; };
 		12C4B23B2658364200E6655C /* FruitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B23A2658364200E6655C /* FruitsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +36,7 @@
 		12C4B22F265828BD00E6655C /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		12C4B23226582C0D00E6655C /* ObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverViewController.swift; sourceTree = "<group>"; };
 		12C4B23526582FC900E6655C /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
-		12C4B2382658363100E6655C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		12C4B2382658363100E6655C /* ChooseFruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFruitViewController.swift; sourceTree = "<group>"; };
 		12C4B23A2658364200E6655C /* FruitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,7 +146,7 @@
 		12C4B2372658356100E6655C /* Delegation */ = {
 			isa = PBXGroup;
 			children = (
-				12C4B2382658363100E6655C /* MainViewController.swift */,
+				12C4B2382658363100E6655C /* ChooseFruitViewController.swift */,
 				12C4B23A2658364200E6655C /* FruitsViewController.swift */,
 			);
 			path = Delegation;
@@ -229,7 +229,7 @@
 				12C4B22D2658278B00E6655C /* DetailAccountViewController.swift in Sources */,
 				12C4B22B2658277D00E6655C /* AccountViewController.swift in Sources */,
 				12C4B23326582C0D00E6655C /* ObserverViewController.swift in Sources */,
-				12C4B2392658363100E6655C /* MainViewController.swift in Sources */,
+				12C4B2392658363100E6655C /* ChooseFruitViewController.swift in Sources */,
 				12C4B215265821A500E6655C /* SceneDelegate.swift in Sources */,
 				12C4B230265828BE00E6655C /* Account.swift in Sources */,
 			);

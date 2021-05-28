@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,25 @@
 		12C4B21A265821A500E6655C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C4B218265821A500E6655C /* Main.storyboard */; };
 		12C4B21C265821A800E6655C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C4B21B265821A800E6655C /* Assets.xcassets */; };
 		12C4B21F265821A800E6655C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C4B21D265821A800E6655C /* LaunchScreen.storyboard */; };
+		12C4B22B2658277D00E6655C /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B22A2658277D00E6655C /* AccountViewController.swift */; };
+		12C4B22D2658278B00E6655C /* DetailAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B22C2658278B00E6655C /* DetailAccountViewController.swift */; };
+		12C4B230265828BE00E6655C /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B22F265828BD00E6655C /* Account.swift */; };
+		12C4B23326582C0D00E6655C /* ObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B23226582C0D00E6655C /* ObserverViewController.swift */; };
+		12C4B23626582FC900E6655C /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B23526582FC900E6655C /* NotificationCenterViewController.swift */; };
+		12C4B2392658363100E6655C /* ChooseFruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B2382658363100E6655C /* ChooseFruitViewController.swift */; };
+		12C4B23B2658364200E6655C /* FruitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4B23A2658364200E6655C /* FruitsViewController.swift */; };
+		12E60E8926615ECE0098648B /* MappingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E60E8826615ECE0098648B /* MappingViewController.swift */; };
+		12E60E8B266162190098648B /* Data+PrettyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E60E8A266162190098648B /* Data+PrettyJSON.swift */; };
+		12E60E8D266165AE0098648B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E60E8C266165AE0098648B /* User.swift */; };
+		12E60E9126616A360098648B /* WeatherReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E60E9026616A360098648B /* WeatherReponse.swift */; };
+		12FD08C6265C205300AD7261 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD08C5265C205300AD7261 /* NetworkViewController.swift */; };
+		12FD08C8265C28A500AD7261 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD08C7265C28A500AD7261 /* WeatherService.swift */; };
+		12FD08CA265C2BB400AD7261 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD08C9265C2BB400AD7261 /* AuthViewController.swift */; };
+		9D17FE33F3C25B8B611EE351 /* Pods_client_server_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F08D0C682157F5DBCE297C92 /* Pods_client_server_swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		060DF63ADD119A742888FC8C /* Pods-client-server-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client-server-swift.debug.xcconfig"; path = "Target Support Files/Pods-client-server-swift/Pods-client-server-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		12C4B20F265821A500E6655C /* client-server-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "client-server-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12C4B212265821A500E6655C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12C4B214265821A500E6655C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,22 @@
 		12C4B21B265821A800E6655C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12C4B21E265821A800E6655C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12C4B220265821A800E6655C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C4B22A2658277D00E6655C /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		12C4B22C2658278B00E6655C /* DetailAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAccountViewController.swift; sourceTree = "<group>"; };
+		12C4B22F265828BD00E6655C /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		12C4B23226582C0D00E6655C /* ObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverViewController.swift; sourceTree = "<group>"; };
+		12C4B23526582FC900E6655C /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
+		12C4B2382658363100E6655C /* ChooseFruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFruitViewController.swift; sourceTree = "<group>"; };
+		12C4B23A2658364200E6655C /* FruitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsViewController.swift; sourceTree = "<group>"; };
+		12E60E8826615ECE0098648B /* MappingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappingViewController.swift; sourceTree = "<group>"; };
+		12E60E8A266162190098648B /* Data+PrettyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+PrettyJSON.swift"; sourceTree = "<group>"; };
+		12E60E8C266165AE0098648B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		12E60E9026616A360098648B /* WeatherReponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherReponse.swift; sourceTree = "<group>"; };
+		12FD08C5265C205300AD7261 /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
+		12FD08C7265C28A500AD7261 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		12FD08C9265C2BB400AD7261 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		B1038047CEA98041E6EAD6F2 /* Pods-client-server-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client-server-swift.release.xcconfig"; path = "Target Support Files/Pods-client-server-swift/Pods-client-server-swift.release.xcconfig"; sourceTree = "<group>"; };
+		F08D0C682157F5DBCE297C92 /* Pods_client_server_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_client_server_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D17FE33F3C25B8B611EE351 /* Pods_client_server_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +75,8 @@
 			children = (
 				12C4B211265821A500E6655C /* client-server-swift */,
 				12C4B210265821A500E6655C /* Products */,
+				7BF9966F9B3F6FADDA0AD8F5 /* Pods */,
+				D8B3992AF6B1F79C6A4C5075 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				12C4B226265821B900E6655C /* App */,
+				12E60E8726615EB90098648B /* Lesson-3 */,
+				12FD08C4265C203A00AD7261 /* Lesson-2 */,
 				12C4B228265821E200E6655C /* Lesson-1 */,
 				12C4B227265821C400E6655C /* Resources */,
 			);
@@ -86,9 +123,110 @@
 		12C4B228265821E200E6655C /* Lesson-1 */ = {
 			isa = PBXGroup;
 			children = (
-				12C4B216265821A500E6655C /* ViewController.swift */,
+				12C4B2372658356100E6655C /* Delegation */,
+				12C4B23426582F9A00E6655C /* NotificationCenter */,
+				12C4B23126582BD100E6655C /* Observer-1 */,
+				12C4B2292658263C00E6655C /* Singleton */,
 			);
 			path = "Lesson-1";
+			sourceTree = "<group>";
+		};
+		12C4B2292658263C00E6655C /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				12C4B22E2658289400E6655C /* Service */,
+				12C4B216265821A500E6655C /* ViewController.swift */,
+				12C4B22A2658277D00E6655C /* AccountViewController.swift */,
+				12C4B22C2658278B00E6655C /* DetailAccountViewController.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		12C4B22E2658289400E6655C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				12C4B22F265828BD00E6655C /* Account.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		12C4B23126582BD100E6655C /* Observer-1 */ = {
+			isa = PBXGroup;
+			children = (
+				12C4B23226582C0D00E6655C /* ObserverViewController.swift */,
+			);
+			path = "Observer-1";
+			sourceTree = "<group>";
+		};
+		12C4B23426582F9A00E6655C /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				12C4B23526582FC900E6655C /* NotificationCenterViewController.swift */,
+			);
+			path = NotificationCenter;
+			sourceTree = "<group>";
+		};
+		12C4B2372658356100E6655C /* Delegation */ = {
+			isa = PBXGroup;
+			children = (
+				12C4B2382658363100E6655C /* ChooseFruitViewController.swift */,
+				12C4B23A2658364200E6655C /* FruitsViewController.swift */,
+			);
+			path = Delegation;
+			sourceTree = "<group>";
+		};
+		12E60E8726615EB90098648B /* Lesson-3 */ = {
+			isa = PBXGroup;
+			children = (
+				12FD08C7265C28A500AD7261 /* WeatherService.swift */,
+				12E60E8826615ECE0098648B /* MappingViewController.swift */,
+				12E60E8E266166110098648B /* Models */,
+				12E60E8F2661661A0098648B /* Extensions */,
+			);
+			path = "Lesson-3";
+			sourceTree = "<group>";
+		};
+		12E60E8E266166110098648B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12E60E8C266165AE0098648B /* User.swift */,
+				12E60E9026616A360098648B /* WeatherReponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12E60E8F2661661A0098648B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				12E60E8A266162190098648B /* Data+PrettyJSON.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		12FD08C4265C203A00AD7261 /* Lesson-2 */ = {
+			isa = PBXGroup;
+			children = (
+				12FD08C5265C205300AD7261 /* NetworkViewController.swift */,
+				12FD08C9265C2BB400AD7261 /* AuthViewController.swift */,
+			);
+			path = "Lesson-2";
+			sourceTree = "<group>";
+		};
+		7BF9966F9B3F6FADDA0AD8F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				060DF63ADD119A742888FC8C /* Pods-client-server-swift.debug.xcconfig */,
+				B1038047CEA98041E6EAD6F2 /* Pods-client-server-swift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8B3992AF6B1F79C6A4C5075 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F08D0C682157F5DBCE297C92 /* Pods_client_server_swift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12C4B223265821A800E6655C /* Build configuration list for PBXNativeTarget "client-server-swift" */;
 			buildPhases = (
+				22062B5EFC9B7522E00D5F33 /* [CP] Check Pods Manifest.lock */,
 				12C4B20B265821A500E6655C /* Sources */,
 				12C4B20C265821A500E6655C /* Frameworks */,
 				12C4B20D265821A500E6655C /* Resources */,
+				4257D1579B157931D3C0C10D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,14 +296,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22062B5EFC9B7522E00D5F33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-client-server-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4257D1579B157931D3C0C10D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-client-server-swift/Pods-client-server-swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-client-server-swift/Pods-client-server-swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-client-server-swift/Pods-client-server-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		12C4B20B265821A500E6655C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E60E8B266162190098648B /* Data+PrettyJSON.swift in Sources */,
+				12E60E9126616A360098648B /* WeatherReponse.swift in Sources */,
+				12C4B23626582FC900E6655C /* NotificationCenterViewController.swift in Sources */,
+				12C4B23B2658364200E6655C /* FruitsViewController.swift in Sources */,
+				12FD08C6265C205300AD7261 /* NetworkViewController.swift in Sources */,
+				12E60E8D266165AE0098648B /* User.swift in Sources */,
 				12C4B217265821A500E6655C /* ViewController.swift in Sources */,
+				12FD08C8265C28A500AD7261 /* WeatherService.swift in Sources */,
 				12C4B213265821A500E6655C /* AppDelegate.swift in Sources */,
+				12C4B22D2658278B00E6655C /* DetailAccountViewController.swift in Sources */,
+				12C4B22B2658277D00E6655C /* AccountViewController.swift in Sources */,
+				12FD08CA265C2BB400AD7261 /* AuthViewController.swift in Sources */,
+				12C4B23326582C0D00E6655C /* ObserverViewController.swift in Sources */,
+				12C4B2392658363100E6655C /* ChooseFruitViewController.swift in Sources */,
+				12E60E8926615ECE0098648B /* MappingViewController.swift in Sources */,
 				12C4B215265821A500E6655C /* SceneDelegate.swift in Sources */,
+				12C4B230265828BE00E6655C /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +503,7 @@
 		};
 		12C4B224265821A800E6655C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 060DF63ADD119A742888FC8C /* Pods-client-server-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -326,6 +523,7 @@
 		};
 		12C4B225265821A800E6655C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1038047CEA98041E6EAD6F2 /* Pods-client-server-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

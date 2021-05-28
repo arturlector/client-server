@@ -8,6 +8,14 @@
 import UIKit
 import WebKit
 
+final class Session {
+    static let shared = Session()
+    
+    private init() {}
+    
+    var token = ""
+}
+
 class AuthViewController: UIViewController, WKNavigationDelegate {
 
     @IBOutlet weak var webView: WKWebView! {
@@ -24,6 +32,17 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
+        if let token = UserDefaults.standard.string(forKey: "vkToken") {
+            
+            Session.shared.token = token
+            
+            self.navigationController?.pushViewController(NetworkViewController(), animated: true)
+        }
+        
+        //NSKeyedArchiver
+        
+        //Переход в следующий экран
         
         //Строим URL c параметрами
         var urlComponents = URLComponents()
@@ -69,17 +88,13 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
         print("TOKEN")
         print(token as Any)
         
-        decisionHandler(.cancel)
+        if let token = token, !token.isEmpty {
+            UserDefaults.standard.setValue(token, forKey: "vkToken")
+            
+            //Переход в следущий контроллер
+        }
         
-        /*
-           Session.shared.token = token
-         
-           //Переход в следущий контроллер
-        */
+        
+        decisionHandler(.cancel)
     }
-}
-
-extension ViewController: WKNavigationDelegate {
-    
-    
 }

@@ -9,4 +9,17 @@ target 'client-server-swift' do
 
   pod 'Alamofire'
 
+  #pod 'RealmSwift'
+
+  #pod 'FirebaseCore'
+
+  #pod 'Kingsfire'
+
+  #pod 'R.Swift'
+
+  #pod 'RxSwift'
+
+  #pod 'Promise'
+
+
 end

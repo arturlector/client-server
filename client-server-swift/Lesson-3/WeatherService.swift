@@ -34,8 +34,9 @@ final class WeatherService {
             
             guard let data = response.value else { return }
             
-            print(data.prettyJSON as Any)
+            //print(data.prettyJSON as Any)
         
+            print(data)
             
             //let weather = try? newJSONDecoder().decode(WeatherResponse.self, from: jsonData)
             

@@ -28,12 +28,6 @@ class MappingViewController: UIViewController {
         
     }
     
-    struct User: Codable {
-        
-        let id: Int
-        let name: String
-    }
-    
     func loadUsersSecondExample() {
         
         AF.request("https://jsonplaceholder.typicode.com/users", method: .get).responseData { response in

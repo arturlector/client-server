@@ -23,7 +23,7 @@ class MappingViewController: UIViewController {
         //Codegen + Codable (Quicktype)
         //loadUsersSecondExample()
         
-        weatherService.getWeatherData(city: "Moscow")
+        //weatherService.getWeatherData(city: "Moscow")
         
         
     }

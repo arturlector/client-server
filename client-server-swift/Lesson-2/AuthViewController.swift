@@ -93,8 +93,6 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
             
             //Переход в следущий контроллер
         }
-        
-        
         decisionHandler(.cancel)
     }
 }

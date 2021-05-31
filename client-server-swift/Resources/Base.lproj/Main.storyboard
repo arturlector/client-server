@@ -148,10 +148,10 @@
             </objects>
             <point key="canvasLocation" x="1531.8840579710145" y="566.51785714285711"/>
         </scene>
-        <!--Mapping View Controller-->
+        <!--Storage View Controller-->
         <scene sceneID="ppL-Lg-MOA">
             <objects>
-                <viewController id="GKp-8M-Xbh" customClass="MappingViewController" customModule="client_server_swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="GKp-8M-Xbh" customClass="StorageViewController" customModule="client_server_swift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qg1-Ku-GkA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

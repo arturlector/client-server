@@ -25,6 +25,14 @@ class MappingViewController: UIViewController {
         
         //weatherService.getWeatherData(city: "Moscow")
         
+        weatherService.getWeatherData(city: "Moscow") { weatherModel in
+            
+            //На UI отобразить
+            
+            print(weatherModel.temperatureC ?? 0)
+            print(weatherModel.date ?? "")
+            print(weatherModel.cityName ?? "")
+        }
         
     }
     

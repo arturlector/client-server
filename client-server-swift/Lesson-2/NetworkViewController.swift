@@ -99,7 +99,7 @@ class NetworkViewController: UIViewController {
     
     func forthRequest() {
         
-        weatherService.getWeatherData(city: "Moscow")
+        //weatherService.getWeatherData(city: "Moscow")
         
     }
     

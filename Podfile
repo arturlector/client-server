@@ -9,7 +9,8 @@ target 'client-server-swift' do
 
   pod 'Alamofire'
 
-  #pod 'RealmSwift'
+  pod 'RealmSwift'
+  pod 'SwiftKeychainWrapper'
 
   #pod 'FirebaseCore'
 

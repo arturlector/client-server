@@ -16,7 +16,7 @@ final class WeatherService {
     
     //MARK: - Public
     
-    func getWeatherData(city: String) {
+    func getWeatherData(city: String, completion: @escaping (WeatherModel)->()) {
         
         let path = "/data/2.5/forecast"
         
@@ -33,26 +33,17 @@ final class WeatherService {
         AF.request(url, method: .get, parameters: params).responseData { response in
             
             guard let data = response.value else { return }
-            
-            //print(data.prettyJSON as Any)
-        
+
             print(data)
+ 
+            guard let weatherModel = try? JSONDecoder().decode(WeatherModel.self, from: data) else { return }
             
-            //let weather = try? newJSONDecoder().decode(WeatherResponse.self, from: jsonData)
+            print (weatherModel)
             
-            guard let weatherResponse = try? JSONDecoder().decode(WeatherResponse.self, from: data) else { return }
-            
-            print (weatherResponse)
-            
-            
-//            let weatherList = weatherResponse?.list
-//            
-//            guard let weather = weatherList?.first else { return }
-//            
-//            print(weather.dtTxt)
-//            
-//            print(weather)
-            
+            DispatchQueue.main.async {
+                completion(weatherModel)
+            }
+        
         }
     }
 }

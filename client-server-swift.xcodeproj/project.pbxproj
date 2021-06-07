@@ -31,6 +31,8 @@
 		12FD08C6265C205300AD7261 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD08C5265C205300AD7261 /* NetworkViewController.swift */; };
 		12FD08C8265C28A500AD7261 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD08C7265C28A500AD7261 /* WeatherService.swift */; };
 		12FD08CA265C2BB400AD7261 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD08C9265C2BB400AD7261 /* AuthViewController.swift */; };
+		12FDA345266E90FB007F8AFD /* RealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDA344266E90FB007F8AFD /* RealmViewController.swift */; };
+		12FDA347266E97B3007F8AFD /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDA346266E97B3007F8AFD /* DatabaseService.swift */; };
 		9D17FE33F3C25B8B611EE351 /* Pods_client_server_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F08D0C682157F5DBCE297C92 /* Pods_client_server_swift.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,8 @@
 		12FD08C5265C205300AD7261 /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
 		12FD08C7265C28A500AD7261 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		12FD08C9265C2BB400AD7261 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		12FDA344266E90FB007F8AFD /* RealmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmViewController.swift; sourceTree = "<group>"; };
+		12FDA346266E97B3007F8AFD /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
 		B1038047CEA98041E6EAD6F2 /* Pods-client-server-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client-server-swift.release.xcconfig"; path = "Target Support Files/Pods-client-server-swift/Pods-client-server-swift.release.xcconfig"; sourceTree = "<group>"; };
 		F08D0C682157F5DBCE297C92 /* Pods_client_server_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_client_server_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -118,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				12C4B226265821B900E6655C /* App */,
+				12FDA343266E90D0007F8AFD /* Lesson-5 */,
 				12A7BB75266559B7004272EC /* Lesson-4 */,
 				12E60E8726615EB90098648B /* Lesson-3 */,
 				12FD08C4265C203A00AD7261 /* Lesson-2 */,
@@ -238,6 +243,15 @@
 				12FD08C9265C2BB400AD7261 /* AuthViewController.swift */,
 			);
 			path = "Lesson-2";
+			sourceTree = "<group>";
+		};
+		12FDA343266E90D0007F8AFD /* Lesson-5 */ = {
+			isa = PBXGroup;
+			children = (
+				12FDA344266E90FB007F8AFD /* RealmViewController.swift */,
+				12FDA346266E97B3007F8AFD /* DatabaseService.swift */,
+			);
+			path = "Lesson-5";
 			sourceTree = "<group>";
 		};
 		7BF9966F9B3F6FADDA0AD8F5 /* Pods */ = {
@@ -383,11 +397,13 @@
 				12FD08C8265C28A500AD7261 /* WeatherService.swift in Sources */,
 				12A7BBA926656108004272EC /* Human+CoreDataClass.swift in Sources */,
 				12A7BB77266559CF004272EC /* StorageViewController.swift in Sources */,
+				12FDA345266E90FB007F8AFD /* RealmViewController.swift in Sources */,
 				12C4B213265821A500E6655C /* AppDelegate.swift in Sources */,
 				12C4B22D2658278B00E6655C /* DetailAccountViewController.swift in Sources */,
 				12C4B22B2658277D00E6655C /* AccountViewController.swift in Sources */,
 				12FD08CA265C2BB400AD7261 /* AuthViewController.swift in Sources */,
 				12C4B23326582C0D00E6655C /* ObserverViewController.swift in Sources */,
+				12FDA347266E97B3007F8AFD /* DatabaseService.swift in Sources */,
 				12C4B2392658363100E6655C /* ChooseFruitViewController.swift in Sources */,
 				12E60E8926615ECE0098648B /* MappingViewController.swift in Sources */,
 				12C4B215265821A500E6655C /* SceneDelegate.swift in Sources */,

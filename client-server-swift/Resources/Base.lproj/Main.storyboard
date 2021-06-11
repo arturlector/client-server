@@ -148,16 +148,36 @@
             </objects>
             <point key="canvasLocation" x="1531.8840579710145" y="566.51785714285711"/>
         </scene>
-        <!--Realm View Controller-->
+        <!--Step Counter View Controller-->
         <scene sceneID="ppL-Lg-MOA">
             <objects>
-                <viewController id="GKp-8M-Xbh" customClass="RealmViewController" customModule="client_server_swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="GKp-8M-Xbh" customClass="StepCounterViewController" customModule="client_server_swift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qg1-Ku-GkA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step Counter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qeD-Vw-dlQ">
+                                <rect key="frame" x="139" y="112" width="101" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2r-SU-gcT">
+                                <rect key="frame" x="161" y="191" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Step Up"/>
+                                <connections>
+                                    <action selector="stepUpAction:" destination="GKp-8M-Xbh" eventType="touchUpInside" id="ITP-Gf-PrN"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="tNt-14-wt5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="stepLabel" destination="qeD-Vw-dlQ" id="fus-PH-xkv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eot-0L-3sM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

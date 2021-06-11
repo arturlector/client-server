@@ -33,6 +33,9 @@
 		12FD08CA265C2BB400AD7261 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD08C9265C2BB400AD7261 /* AuthViewController.swift */; };
 		12FDA345266E90FB007F8AFD /* RealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDA344266E90FB007F8AFD /* RealmViewController.swift */; };
 		12FDA347266E97B3007F8AFD /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDA346266E97B3007F8AFD /* DatabaseService.swift */; };
+		12FDA3842673D208007F8AFD /* RealmNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDA3832673D208007F8AFD /* RealmNotificationViewController.swift */; };
+		12FDA3862673DA75007F8AFD /* StepCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDA3852673DA75007F8AFD /* StepCounter.swift */; };
+		12FDA3882673DAB5007F8AFD /* StepCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDA3872673DAB5007F8AFD /* StepCounterViewController.swift */; };
 		9D17FE33F3C25B8B611EE351 /* Pods_client_server_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F08D0C682157F5DBCE297C92 /* Pods_client_server_swift.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +69,9 @@
 		12FD08C9265C2BB400AD7261 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		12FDA344266E90FB007F8AFD /* RealmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmViewController.swift; sourceTree = "<group>"; };
 		12FDA346266E97B3007F8AFD /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		12FDA3832673D208007F8AFD /* RealmNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmNotificationViewController.swift; sourceTree = "<group>"; };
+		12FDA3852673DA75007F8AFD /* StepCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounter.swift; sourceTree = "<group>"; };
+		12FDA3872673DAB5007F8AFD /* StepCounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounterViewController.swift; sourceTree = "<group>"; };
 		B1038047CEA98041E6EAD6F2 /* Pods-client-server-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client-server-swift.release.xcconfig"; path = "Target Support Files/Pods-client-server-swift/Pods-client-server-swift.release.xcconfig"; sourceTree = "<group>"; };
 		F08D0C682157F5DBCE297C92 /* Pods_client_server_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_client_server_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -122,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				12C4B226265821B900E6655C /* App */,
+				12FDA3822673D1E4007F8AFD /* Lesson-6 */,
 				12FDA343266E90D0007F8AFD /* Lesson-5 */,
 				12A7BB75266559B7004272EC /* Lesson-4 */,
 				12E60E8726615EB90098648B /* Lesson-3 */,
@@ -252,6 +259,16 @@
 				12FDA346266E97B3007F8AFD /* DatabaseService.swift */,
 			);
 			path = "Lesson-5";
+			sourceTree = "<group>";
+		};
+		12FDA3822673D1E4007F8AFD /* Lesson-6 */ = {
+			isa = PBXGroup;
+			children = (
+				12FDA3852673DA75007F8AFD /* StepCounter.swift */,
+				12FDA3872673DAB5007F8AFD /* StepCounterViewController.swift */,
+				12FDA3832673D208007F8AFD /* RealmNotificationViewController.swift */,
+			);
+			path = "Lesson-6";
 			sourceTree = "<group>";
 		};
 		7BF9966F9B3F6FADDA0AD8F5 /* Pods */ = {
@@ -390,6 +407,7 @@
 				12E60E9126616A360098648B /* WeatherModel.swift in Sources */,
 				12C4B23626582FC900E6655C /* NotificationCenterViewController.swift in Sources */,
 				12C4B23B2658364200E6655C /* FruitsViewController.swift in Sources */,
+				12FDA3882673DAB5007F8AFD /* StepCounterViewController.swift in Sources */,
 				12FD08C6265C205300AD7261 /* NetworkViewController.swift in Sources */,
 				12E60E8D266165AE0098648B /* User.swift in Sources */,
 				12C4B217265821A500E6655C /* ViewController.swift in Sources */,
@@ -398,6 +416,7 @@
 				12A7BBA926656108004272EC /* Human+CoreDataClass.swift in Sources */,
 				12A7BB77266559CF004272EC /* StorageViewController.swift in Sources */,
 				12FDA345266E90FB007F8AFD /* RealmViewController.swift in Sources */,
+				12FDA3862673DA75007F8AFD /* StepCounter.swift in Sources */,
 				12C4B213265821A500E6655C /* AppDelegate.swift in Sources */,
 				12C4B22D2658278B00E6655C /* DetailAccountViewController.swift in Sources */,
 				12C4B22B2658277D00E6655C /* AccountViewController.swift in Sources */,
@@ -408,6 +427,7 @@
 				12E60E8926615ECE0098648B /* MappingViewController.swift in Sources */,
 				12C4B215265821A500E6655C /* SceneDelegate.swift in Sources */,
 				12C4B230265828BE00E6655C /* Account.swift in Sources */,
+				12FDA3842673D208007F8AFD /* RealmNotificationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

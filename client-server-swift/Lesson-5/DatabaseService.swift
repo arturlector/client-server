@@ -47,6 +47,4 @@ class DatabaseServiceImpl: DatabaseService {
             mainRealm.delete(user)
         }
     }
-    
-    
 }

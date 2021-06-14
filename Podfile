@@ -12,6 +12,9 @@ target 'client-server-swift' do
   pod 'RealmSwift'
   pod 'SwiftKeychainWrapper'
 
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  
   #pod 'FirebaseCore'
 
   #pod 'Kingsfire'
